@@ -1,53 +1,39 @@
 # PySheets
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here. Logos can be found at https://simpleicons.org/ --->
-![GitHub repo size](https://img.shields.io/github/repo-size/{user}/{repo}?style=plastic&logo=appveyor)
-![GitHub contributors](https://img.shields.io/github/contributors/{user}/{repo}?style=plastic&logo=appveyor)
-![GitHub stars](https://img.shields.io/github/stars/{user}/{repo}?style=social)
-![GitHub forks](https://img.shields.io/github/forks/{user}/{repo}?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/{userID}?style=social&link=http://left&link=http://right)
+![GitHub repo size](https://img.shields.io/github/repo-size/AlbusNoir/PySheets?style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/AlbusNoir/PySheets?style=plastic)
+![GitHub stars](https://img.shields.io/github/stars/AlbusNoir/PySheets?style=social)
+![GitHub forks](https://img.shields.io/github/forks/AlbusNoir/PySheets?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/kaleleafygreen?style=social&link=https://twitter.com/kaleleafygreen&link=https://twitter.com/kaleleafygreen)
 <!--- The following can really be anything you want. Format for this is https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR> --->
-![License](https://img.shields.io/badge/license-licensetype-blue?style=plastic&logo=appveyor)
-![Python-Version](https://img.shields.io/badge/language-version-blueviolet?style=plastic&logo=appveyor)
+![License](https://img.shields.io/badge/license-MIT-blue?style=plastic)
+![Python-Version](https://img.shields.io/badge/Python-3.8-blueviolet?style=plastic)
 
-Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
-
-Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
+PYSheets is a utility that allows the creation and copying of templates using the GoogleSheets API
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
+* You have installed Python3.8 (I used 3.8.5 in dev)
+* You're going to need a few libraries and honestly you're going to want to read the docs. [Info here](https://developers.google.com/docs/api/quickstart/python) 
 
-## Installing <project_name>
 
-To install <project_name>, follow these steps:
+## Using PySheets
 
-Linux and macOS:
-```
-<install_command>
-```
+You're going to want to follow that quick start guide linked above before messing with the API
+<br>
+After reading up on the API and quick start guide:
+- run quickstart.py to test and generate credentials to use
+- create_sheet.py has been edited from what's seen in the quickstart to allow you to enter a name for your sheet
+- after creating that sheet, do whatever edits you need or skip to copy_template.py if you're copying a template to that new sheet
+- Further info found in the [docs](https://developers.google.com/docs/api/quickstart/python)
 
-Windows:
-```
-<install_command>
-```
-## Using <project_name>
 
-To use <project_name>, follow these steps:
-
-```
-<usage_example>
-```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
-
-## Contributing to <project_name>
+## Contributing to PySheets
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
-To contribute to <project_name>, follow these steps:
+Contributions are welcomed, this was really just a project I did to learn about the API
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
@@ -57,33 +43,15 @@ To contribute to <project_name>, follow these steps:
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Contributors
-
-Thanks to the following people who have contributed to this project:
-
-
-User | Contribution | Emoji!
------------- | ------------- | -------------
-[@{username}](https://github.com/{user}) | {contribution} | 📖
-[@{username}](https://github.com/{user}) | {contribution} | 🐛
-
-<!--- add others as needed --->
-
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
-
-## Progress/Tasks
-- [x] This item is done
-- [ ] This item is not
-
 ## Contact
 
-If you want to contact me you can reach me at <your_email@address.com>.
+If you want to contact me you can reach me at kalegithub@gmail.com
 
 ## License
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: [<license_name>](<link>).
+This project uses the following license: [MIT](https://choosealicense.com/licenses/mit/).
 
 ## Copyright
 
-*Copyright © **{name} {year}***
+*Copyright © **KSego 2020***
