@@ -1,57 +1,145 @@
-# PySheets
-
-<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here. Logos can be found at https://simpleicons.org/ --->
-![GitHub repo size](https://img.shields.io/github/repo-size/AlbusNoir/PySheets?style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/AlbusNoir/PySheets?style=plastic)
-![GitHub stars](https://img.shields.io/github/stars/AlbusNoir/PySheets?style=social)
-![GitHub forks](https://img.shields.io/github/forks/AlbusNoir/PySheets?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/kaleleafygreen?style=social&link=https://twitter.com/kaleleafygreen&link=https://twitter.com/kaleleafygreen)
-<!--- The following can really be anything you want. Format for this is https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR> --->
-![License](https://img.shields.io/badge/license-MIT-blue?style=plastic)
-![Python-Version](https://img.shields.io/badge/Python-3.8-blueviolet?style=plastic)
-
-PYSheets is a utility that allows the creation and copying of templates using the GoogleSheets API
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed Python3.8 (I used 3.8.5 in dev)
-* You're going to need a few libraries and honestly you're going to want to read the docs. [Info here](https://developers.google.com/docs/api/quickstart/python) 
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![License][license-shield]][license-url]
 
 
-## Using PySheets
+<!-- PROJECT LOGO -->
+<br />
+<h3 align="center">PySheets</h3>
+<p align="center">
+  <a href="https://github.com/albusnoir/readme" align="center">
+    <img src="https://github.com/AlbusNoir/AlbusNoir/blob/master/Icons/logo_2021.png" alt="Logo" width="100" height="100">
+  </a>
+  <br />
+  PySheets is a quick and dirty quickstart to using Google Sheets via Python and the GoogleSheetAPI
+</p>
 
-You're going to want to follow that quick start guide linked above before messing with the API
-<br>
-After reading up on the API and quick start guide:
-- run quickstart.py to test and generate credentials to use
-- create_sheet.py has been edited from what's seen in the quickstart to allow you to enter a name for your sheet
-- after creating that sheet, do whatever edits you need or skip to copy_template.py if you're copying a template to that new sheet
-- Further info found in the [docs](https://developers.google.com/docs/api/quickstart/python)
 
 
-## Contributing to PySheets
-<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
-Contributions are welcomed, this was really just a project I did to learn about the API
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#languages-and-frameworks">Languages and Frameworks</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
 
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+This repo is mainly a reference for me and anyone else that wants a quick and easy place to put one off scripts for various things.
+
+<img src="https://github.com/AlbusNoir/AlbusNoir/blob/master/Icons/logo_2021.png">
+
+### Languages and Frameworks
+
+* Python3
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+* Read the [Docs](https://developers.google.com/sheets/api/quickstart/python)
+* Install Python3
+* Have a google Account
+
+### Installation
+
+* You will need three packages: google-api-python-client google-auth-httplib2 google-auth-oauthlib
+<br />
+`pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+There are various things you can do with this.<br />
+[Samples](https://developers.google.com/sheets/api/samples) <br />
+[References](https://developers.google.com/sheets/api/reference/rest) <br />
+[Guides](https://developers.google.com/sheets/api/guides/concepts) <br />
+<br />
+Those should give you some ideas. You can also check out [PyInv](https://github.com/AlbusNoir/PyInv) to get ideas of how I decided to use this.
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+There isn't really a roadmap for this one. It's just a holding repo for quick scripts
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+If you want to make contributions:
+
+1. Fork this Repository
+2. Create your Branch(`git checkout -b <branch name>`)
+3. Commit your Changes(`git commit -m 'I did some things'`)
+4. Push to the Branch(`git push origin <project_name>/<location>`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the `GPLv3` License. See [`LICENSE INFO`](https://choosealicense.com/) for more information.
+
+
+
+<!-- CONTACT -->
 ## Contact
 
-If you want to contact me you can reach me at kalegithub@gmail.com
+Name | Social | Email |
+------------ | ------------- | ------------- |
+Kale | [![Twitter][twitter-shield]][twitter-url] | <a href="mailto:kalegithub@gmail.com"><img src="https://img.shields.io/badge/-email-Email?style=for-the-badge&logo=gmail&colorB=555"></a>
 
-## License
-<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: [MIT](https://choosealicense.com/licenses/mit/).
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements & Contributions
 
-## Copyright
+#### Thank you to the following:
 
-*Copyright © **KSego 2020***
+User | Contribution |
+------------ | ------------- |
+[@albusnoir](https://github.com/albusnoir) | Did the thing |
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/albusnoir/PySheets.svg?style=for-the-badge
+[contributors-url]: https://github.com/albusnoir/readme/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/albusnoir/PySheets.svg?style=for-the-badge
+[forks-url]: https://github.com/albusnoir/PySheets/network/members
+[stars-shield]: https://img.shields.io/github/stars/albusnoir/PySheets.svg?style=for-the-badge
+[stars-url]: https://github.com/albusnoir/PySheets/stargazers
+[license-shield]: https://img.shields.io/github/license/albusnoir/PySheets.svg?style=for-the-badge
+[license-url]: https://github.com/albusnoir/PySheets/blob/master/LICENSE
+[twitter-shield]: https://img.shields.io/badge/-twitter-Twitter?style=for-the-badge&logo=twitter&colorB=555
+[twitter-url]: https://twitter.com/kaleleafygreen
