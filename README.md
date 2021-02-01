@@ -7,13 +7,13 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<h3 align="center">PySheets</h3>
+<h3 align="center">Google Suite API</h3>
 <p align="center">
   <a href="https://github.com/albusnoir/readme" align="center">
     <img src="https://github.com/AlbusNoir/AlbusNoir/blob/master/Icons/logo_2021.png" alt="Logo" width="100" height="100">
   </a>
   <br />
-  PySheets is a quick and dirty quickstart to using Google Sheets via Python and the GoogleSheetAPI
+  PySheets is a quick and dirty quickstart to using various Google things (drive, docs, sheets, calendar, etc) with Python
 </p>
 
 
@@ -63,7 +63,7 @@ This repo is mainly a reference for me and anyone else that wants a quick and ea
 
 ### Prerequisites
 
-* Read the [Docs](https://developers.google.com/sheets/api/quickstart/python)
+* Read the [Docs](https://developers.google.com/)
 * Install Python3
 * Have a google Account
 
@@ -78,9 +78,9 @@ This repo is mainly a reference for me and anyone else that wants a quick and ea
 ## Usage
 
 There are various things you can do with this.<br />
-[Samples](https://developers.google.com/sheets/api/samples) <br />
-[References](https://developers.google.com/sheets/api/reference/rest) <br />
-[Guides](https://developers.google.com/sheets/api/guides/concepts) <br />
+[Products you can use](https://developers.google.com/products)<br />
+[Learning you can do](https://developers.google.com/learn)<br />
+[Enable APIs](https://console.cloud.google.com/apis/library)<br />
 <br />
 Those should give you some ideas. You can also check out [PyInv](https://github.com/AlbusNoir/PyInv) to get ideas of how I decided to use this.
 
