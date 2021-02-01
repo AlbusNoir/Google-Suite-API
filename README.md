@@ -133,13 +133,13 @@ User | Contribution |
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/albusnoir/google-sheets-api.svg?style=for-the-badge
-[contributors-url]: https://github.com/albusnoir/google-suite-api/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/albusnoir/Pgoogle-sheets-api.svg?style=for-the-badge
-[forks-url]: https://github.com/albusnoir/google-sheets-api/network/members
-[stars-shield]: https://img.shields.io/github/stars/albusnoir/google-sheets-api.svg?style=for-the-badge
-[stars-url]: https://github.com/albusnoir/google-sheets-api/stargazers
-[license-shield]: https://img.shields.io/github/license/albusnoir/google-sheets-api.svg?style=for-the-badge
-[license-url]: https://github.com/albusnoir/google-sheets-api/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/albusnoir/Google-Suite-API.svg?style=for-the-badge
+[contributors-url]: https://github.com/albusnoir/Google-Suite-API/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/albusnoir/Google-Suite-API.svg?style=for-the-badge
+[forks-url]: https://github.com/albusnoir/Google-Suite-API/network/members
+[stars-shield]: https://img.shields.io/github/stars/albusnoir/Google-Suite-API.svg?style=for-the-badge
+[stars-url]: https://github.com/albusnoir/Google-Suite-API/stargazers
+[license-shield]: https://img.shields.io/github/license/albusnoir/Google-Suite-API.svg?style=for-the-badge
+[license-url]: https://github.com/albusnoir/Google-Suite-API/blob/master/LICENSE
 [twitter-shield]: https://img.shields.io/badge/-twitter-Twitter?style=for-the-badge&logo=twitter&colorB=555
 [twitter-url]: https://twitter.com/kaleleafygreen
